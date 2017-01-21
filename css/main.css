@@ -1,7 +1,22 @@
+#wrapper{
+    display:-webkit-flex;
+    -webkit-justify-content:center;
+
+    display:flex;
+    justify-content:center;
+}
+
+#wrapper div{
+    -webkit-flex:1;
+    flex:1;
+}
+
 
 body {
-    background: -moz-linear-gradient(right,  rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%), url("../pics/cover.jpg") 100% 0%; /* FF3.6-15 */
-    background: -webkit-linear-gradient(right,  rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%), url("../pics/cover.jpg") 100% 0%; /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 0) 100%), url("../pics/cover.jpg") 100% 0%; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: -moz-linear-gradient(right,  rgba(170, 119, 248, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url("../pics/cover_nameless_long.jpg") 0% 90%; /* FF3.6-15 */
+    background: -webkit-linear-gradient(right,  rgba(170, 119, 248, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url("../pics/cover_nameless_long.jpg") 0% 90%; /* Chrome10-25,Safari5.1-6 */
+
+    background: linear-gradient(to right,  rgba(170, 119, 248, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url("../pics/cover_nameless_long.jpg") 0% 90%; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
 }
