@@ -27,8 +27,13 @@ const printTime = () => {
         secondsElement.textContent = '00';
         millisecondsElement.textContent = '0';
 
-        let href = document.getElementById('another_song_link');
-        href.style.display = '';
+        let soundCloudWidget = document.getElementById('another_song_link');
+        soundCloudWidget.style.visibility = '';
+
+        let timer_div = document.getElementById('timer_div');
+        timer_div.style.visibility = 'hidden';
+
+        document.body.style.backgroundImage = 'url(pics/country_with_label.jpg)';
         return;
     }
 

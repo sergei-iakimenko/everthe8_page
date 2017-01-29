@@ -4,128 +4,39 @@
     <meta charset="UTF-8">
     <title>Everthe8</title>
 
-    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
-
-    <style>
-        .container { width: 100% }
-        p { text-align: center }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/country.css">
 </head>
-<body>
+<body style='background-image: url("pics/country_without_label.jpg"); background-position-x: center;'>
 
-<iframe style="display: none" width="10%" height="10" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303122045&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<div class="container h1" style="color: white; text-align: center">
 
-<div id="wrapper" class="container" style="color: #F1E9FF;">
-    <div class="row">
-        <div class="col-6">
-    <div id="lyrics">
-        <pre style='font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: #F1E9FF; margin-top: 0px'>
-            damn, i’ve been up for 8 days
-            so i got lost track of time
-            in the light of the moon, alone in the room,
-            i’m all right, get fuck outta my mind
+    <!-- Ссылка на трек -->
+    <iframe id="another_song_link" style="visibility: hidden" width="1000px" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303122045&amp;scheme=242424&amp;color=242424&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=false&amp;show_artwork=false&amp;show_bpm=false"></iframe>
 
-            too much fucking focus on me these days,
-            i can tell, i see they havin’ problems, these days,
-            you ain’t shit, so you wanna fuck up my wave
-            insecurities written all on your face
+    <div id="timer_div" class="row justify-content-center" style="color:#F1E9FF">
 
-            mm all these missed calls,
-            constant insults
-            i’m exhausted, I’m sick, I’m tired, I’m over bored
-            bitch i gotta feel alive, when rapping, you overboard
-
-            all these rappers just dead weight
-            i might say
-            hmm you not even comin' close to 8
-
-            you hear they calling my name
-            mmm
-            i might say
-            ooooooaaaaw
-
-            now I’m done with
-            done with u
-
-            ooooooaaaaw now I’m done with
-            done with u
-
-            i keep my mind on the my mission
-            drugs won’t get me high like this
-            leave alone the troubled boy, with your issues
-            fuck on you, I’m focused on my vision
-
-            don’t you come around me,
-            I’m gonna kill your hopes, like this
-            do it easily, like this
-            Fuck bout u, gimme dat money ya bish,
-            fuck on you, I’m focused
-
-            i keep my mind on the my mission
-            drugs won’t get me high like this
-            leave alone the troubled boy, with your issues
-            fuck on you, I’m focused on my vision
-
-            don’t you come around me,
-            I’m gonna kill your hopes, like this
-            do it do it easily, like this
-            Fuck bout u, gimme dat money ya bish,
-            fuck on you, I’m focused on my mission
-        </pre>
-    </div>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+            <p id="days" >00</p>
         </div>
-
-        <div class="col-6 h1 m-b-0" style="color: #F1E9FF;">
-            <div class="row align-items-end" style="height: 20%">
-
-                <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-3">
-                </div>
-
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-1">
-                    <p id="days" >drd4life</p>
-                </div>
-                <p>:</p>
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-1">
-                    <p id="hours">drd4life</p>
-                </div>
-                <p>:</p>
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-1">
-                    <p id="minutes">drd4life</p>
-                </div>
-                <p>:</p>
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-1">
-                    <p id="seconds">drd4life</p>
-                </div>
-                <p>:</p>
-                <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-1">
-                    <p id="milliseconds">drd4life</p>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-5">
-                </div>
-                <div class="col">
-                    <!-- TODO: change href attribute -->
-                    <a id="another_song_link" href="#" target="_blank" style="display: none">
-                        <img id="image" src="pics/white_transparent_64-94fc761.png" width="64" height="64" alt="SoundCloud Logo">
-                    </a>
-                </div>
-            </div>
+        <p>:</p>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+            <p id="hours">00</p>
+        </div>
+        <p>:</p>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+            <p id="minutes">00</p>
+        </div>
+        <p>:</p>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+            <p id="seconds">00</p>
+        </div>
+        <p>:</p>
+        <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1">
+            <p id="milliseconds">00</p>
         </div>
     </div>
 </div>
-
-<footer class="footer" style="text-align: center">
-    <div class="container">
-        <iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Feverthe8&color=white_transparent&size=32" style="width: 32px; height: 32px"></iframe>
-        <p style="color: #F1E9FF;  margin-top: -10px;">everthe8@gmail.com</p>
-
-        <div style="margin-top: -15px;">
-            <p style="color: #F1E9FF">2017</p>
-        </div>
-    </div>
-</footer>
 
 </body>
 
