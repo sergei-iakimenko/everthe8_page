@@ -8,7 +8,7 @@ let millisecondsElement = document.getElementById('milliseconds');
 
 
 // Date.UTC(year, month[, day[, hour[, minute[, second[, millisecond]]]]])
-let deadlineTime = Date.UTC(2017, 0, 30, 4, 0, 0, 0);
+let deadlineTime = Date.UTC(2017, 0, 30, 13, 0, 0, 0);
 
 let timeoutId = NaN;
 
