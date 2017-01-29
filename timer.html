@@ -3,11 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Таймер</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+
+    <style type="text/css">
+        p { display: inline }
+    </style>
+
 </head>
 <body>
-    <form name="TimerForm">
-        <input id="timer" size=10 value="00:00:00.00">
-    </form>
+
+    <blockquote class="blockquote blockquote-reverse">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p id="days" class="h1 m-b-0" >drd4life</p> <p>:</p>
+                </div>
+                <div class="col">
+                    <p id="hours" class="h1 m-b-0">drd4life</p> <p>:</p>
+                </div>
+                <div class="col">
+                    <p id="minutes" class="h1 m-b-0">drd4life</p> <p>:</p>
+                </div>
+                <div class="col">
+                    <p id="seconds" class="h1 m-b-0">drd4life</p> <p>:</p>
+                </div>
+                <div class="col">
+                    <p id="milliseconds" class="h1 m-b-0">drd4life</p>
+                </div>
+            </div>
+        </div>
+    </blockquote>
 
     <script src="timer.js"></script>
 </body>

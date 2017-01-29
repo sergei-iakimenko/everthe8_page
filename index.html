@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <title>Everthe8</title>
 
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+
     <style>
         @font-face {
             font-family: lyricsFont;
             src: url('fonts/Quicksand-Regular.woff') format('woff')
         }
-    </style>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+        .container { width: 100% }
 
+        p { text-align: center }
+    </style>
 </head>
 <body>
 
 <iframe style="display: none" width="10%" height="10" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303122045&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-<div id="wrapper">
-
+<div id="wrapper" class="container" style="color: #F1E9FF;">
+    <div class="row">
+        <div class="col-6">
     <div id="lyrics">
         <pre style="font-family: 'lyricsFont'; color: #F1E9FF; margin-top: 0px">
             damn, i’ve been up for 8 days
@@ -76,6 +79,46 @@
             fuck on you, I’m focused on my mission
         </pre>
     </div>
+        </div>
+
+        <div class="col-6 h1 m-b-0" style="color: #F1E9FF;">
+            <div class="row align-items-end" style="height: 20%">
+
+                <div class="col-3">
+                </div>
+
+                <div class="col-1">
+                    <p id="days" >drd4life</p>
+                </div>
+                <p>:</p>
+                <div class="col-1">
+                    <p id="hours">drd4life</p>
+                </div>
+                <p>:</p>
+                <div class="col-1">
+                    <p id="minutes">drd4life</p>
+                </div>
+                <p>:</p>
+                <div class="col-1">
+                    <p id="seconds">drd4life</p>
+                </div>
+                <p>:</p>
+                <div class="col-1">
+                    <p id="milliseconds">drd4life</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-5">
+                </div>
+                <div class="col">
+                    <!-- TODO: change href attribute -->
+                    <a id="another_song_link" href="#" target="_blank" style="display: none">
+                        <img id="image" src="pics/white_transparent_64-94fc761.png" width="64" height="64" alt="SoundCloud Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <footer class="footer" style="text-align: center">
@@ -101,5 +144,7 @@
     ga('create', 'UA-90626572-1', 'auto');
     ga('send', 'pageview');
 </script>
+
+<script src="timer.js"></script>
 
 </html>
