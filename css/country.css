@@ -1,6 +1,6 @@
 body {
     background-color: rgba(24, 24, 24, 1);
-    background-image: url(../pics/country_without_label.jpg), url(../pics/country_with_label.jpg);
+    background-image: url(../pics/country_with_label.jpg);
 
     background-repeat:no-repeat;
     background-position-x: center;
