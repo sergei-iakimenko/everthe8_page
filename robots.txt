@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /
-Allow: /index.html
+Disallow: /.idea/
+Disallow: /bootstrap-4.0.0-alpha.6-dist/
+Disallow: /sandbox/
