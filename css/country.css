@@ -1,6 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: rgb(24, 24, 24);
     background-image: url(../pics/country_with_label.jpg);
 
     background-repeat:no-repeat;
+    background-size: contain;
 }
