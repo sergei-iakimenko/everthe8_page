@@ -1,0 +1,13 @@
+{
+  "short_name": "Everthe8",
+  "name": "Everthe8's web page",
+
+  "lang": "en-US",
+  "dir": "ltr",
+
+  "theme_color": "#030303",
+  "background_color": "030303",
+
+  "start_url": "/index.html",
+  "description": "Web page of Everthe8, the self producing rapper."
+}

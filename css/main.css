@@ -54,6 +54,7 @@ body {
 
 @font-face {
     font-family: commonFont;
+    font-display: auto;
     src: url(../fonts/Quicksand-Regular.woff) format('woff')
 }
 
